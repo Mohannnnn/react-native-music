@@ -3,8 +3,8 @@
 
 ### Start
 ```shell
-IOS `react-native run-ios`
-Android `react-native run-android`
+1.IOS `react-native run-ios`
+2.Android `react-native run-android`
 ```
 
 ### 环境
