@@ -25,8 +25,8 @@
     │  static               #静态文件
     │  utils                #工具函数
     │  App.js               #app入口文件
-    │─index.js			    #根目录入口文件
-    └─app.json			    #app配置
+    │─index.js              #根目录入口文件
+    └─app.json              #app配置
 ```
 ### 环境
 * **node  v10.13.0**
