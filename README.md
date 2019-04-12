@@ -11,7 +11,7 @@
 ```bash
     │-ios                   #ios原生目录
     │-android               #安卓原生目录
-    │─src					#主目录，业务代码
+    │─src                   #主目录，业务代码
     │  actions              #redux actions
     │  components           #页面组件
     │  constants            #actions常量
