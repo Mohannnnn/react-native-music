@@ -1,10 +1,10 @@
 ### RN-Music
 > 基于react-native开发的音乐🎵APP.
 
-### Start
+### 开始
 ```shell
-1.IOS `react-native run-ios`
-2.Android `react-native run-android`
+1.IOS下运行 react-native run-ios
+2.Android下运行 react-native run-android
 ```
 
 ### 环境
