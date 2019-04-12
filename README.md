@@ -8,12 +8,12 @@
 ```
 
 ### 环境
-* node  v10.13.0
-* npm   v6.5.0
-* yarn  v1.9.4
-* Xcode v9.4
-* JDK   v1.8.0
-* SDK   v
+* **node  v10.13.0**
+* **npm   v6.5.0**
+* **yarn  v1.9.4**
+* **Xcode v9.4**
+* **JDK   v1.8.0**
+* **SDK   v**
 
 ### 学习记录
 1.navigation
