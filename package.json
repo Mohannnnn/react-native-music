@@ -1,0 +1,37 @@
+{
+  "name": "RnMusic",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js  --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle",
+    "bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js  --platform android --dev false --bundle-output ./android/bundle/index.android.jsbundle --assets-dest ./android/bundle",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.2",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-navigation": "^3.5.1",
+    "react-redux": "^6.0.1",
+    "react-test-renderer": "16.8.3",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
