@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { updateAlbumList as albumListUpdateAction } from '../../actions/index.js';
-import Album from '../../components/discover/album.js';
+import Album from '../../components/pages/discover/album';
 //注册store
 const mapStateToProps = (state) => {
     return {
