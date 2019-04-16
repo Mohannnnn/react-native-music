@@ -37,7 +37,7 @@ var styles = StyleSheet.create({
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: "#F5FCFF"
+      backgroundColor: "#F5FCFF",
     }
 })
 
