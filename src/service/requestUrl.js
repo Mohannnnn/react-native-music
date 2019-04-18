@@ -11,7 +11,7 @@ const requestUrl = {
         mv: 'https://api.itooi.cn/music/netease/mv', //获取MV信息
         mvUrl: 'https://api.itooi.cn/music/netease/mvUrl', //获取MV播放地址
         songListCategory: 'https://api.itooi.cn/music/netease/songListCategory', //获取歌单分类
-        hQSongList: 'https://api.itooi.cn/music/netease/highQualitySongList', //获取精品歌单
+        hqSongList: 'https://api.itooi.cn/music/netease/highQualitySongList', //获取精品歌单
         hotSongList: 'https://api.itooi.cn/music/netease/hotSongList', // 获取热门歌单
         mvListCategory: '', //热门mv分类
         topMvList: 'https://api.itooi.cn/music/netease/topMvList', //获取MV排行榜
@@ -28,7 +28,7 @@ const requestUrl = {
         mv: 'https://api.itooi.cn/music/tencent/mv', //获取MV信息
         mvUrl: 'https://api.itooi.cn/music/tencent/mvUrl', //获取MV播放地址
         songListCategory: 'https://api.itooi.cn/music/tencent/songListCategory', //获取歌单分类
-        hQSongList: '', //获取精品歌单
+        hqSongList: '', //获取精品歌单
         hotSongList: 'https://api.itooi.cn/music/tencent/hotSongList', // 获取热门歌单
         mvListCategory: 'https://api.itooi.cn/music/tencent/mvListCategory', //热门mv分类
         topMvList: 'https://api.itooi.cn/music/tencent/topMvList', //获取MV排行榜
@@ -45,7 +45,7 @@ const requestUrl = {
         mv: 'https://api.itooi.cn/music/kugou/mv', //获取MV信息
         mvUrl: 'https://api.itooi.cn/music/kugou/mvUrl', //获取MV播放地址
         songListCategory: '', //获取歌单分类
-        hQSongList: '', //获取精品歌单
+        hqSongList: '', //获取精品歌单
         hotSongList: '', // 获取热门歌单
         mvListCategory: '', //热门mv分类
         topMvList: '', //获取MV排行榜
@@ -62,7 +62,7 @@ const requestUrl = {
         mv: 'https://api.itooi.cn/music/kuwo/mv', //获取MV信息
         mvUrl: 'https://api.itooi.cn/music/kuwo/mvUrl', //获取MV播放地址
         songListCategory: '', //获取歌单分类
-        hQSongList: '', //获取精品歌单
+        hqSongList: '', //获取精品歌单
         hotSongList: '', // 获取热门歌单
         mvListCategory: '', //热门mv分类
         topMvList: '', //获取MV排行榜
