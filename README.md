@@ -22,7 +22,6 @@
     │  store                #store
     │  static               #静态文件
     │  service              #api相关文件
-    │  static               #静态文件
     │  utils                #工具函数
     │  App.js               #app入口文件
     │─index.js              #根目录入口文件
@@ -35,7 +34,7 @@
 * **yarn  v1.9.4**
 * **Xcode v9.4**
 * **JDK   v1.8.0**
-* **SDK   v**
+* **SDK Build-Tools v28.0.3**
 
 ### 学习记录
 1.navigation
