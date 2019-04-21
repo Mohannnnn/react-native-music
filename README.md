@@ -41,3 +41,6 @@
 
 * `this.props.navigation.navigate('RouteName', {paramName: 'value'})`
 * `this.props.navigation.getParam('name') , this.props.navigation.state.params`
+
+2.适配问题
+* 1.使用PixelRatio等相关Api
