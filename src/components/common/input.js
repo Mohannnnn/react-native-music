@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextInput , StyleSheet, Text, View , Image } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+import { unitWidth , unitHeight } from '../../utils/adapter';
 class Input extends React.Component{
     constructor(props){
         super(props);
@@ -24,29 +24,29 @@ class Input extends React.Component{
 }
 var styles = StyleSheet.create({
     container:{
-        flex:1,
         flexDirection:'row',
         alignItems:'center',
+        justifyContent: 'flex-start',
         backgroundColor:'transparent',
     },
     image : {
         position:'absolute',
         left : 10,
         zIndex:5,
-        width:15,
-        height:15
+        width:unitWidth * 30,
+        height:unitWidth * 30,
     },
     input: {
         borderColor: "#f7f7f7",
         backgroundColor: "#f7f7f7",
         borderRadius: 20,
         padding: 0,
-        width:250,
-        height:35,
-        paddingLeft: 30,
-        paddingRight: 10,
+        width:unitWidth * 500,
+        height:unitWidth * 70,
+        paddingLeft: unitWidth * 60,
+        paddingRight: unitWidth * 20,
         color:'#d3d3d4',
-        fontSize: 15,
+        fontSize: unitWidth * 30,
         textAlign:'left'
     }
 })
