@@ -47,20 +47,21 @@ const BottomTabNavigator = createBottomTabNavigator({
     initialRouteParams: {}, //初始化路线参数
     tabBarOptions: { //bar选项
         activeTintColor: '#1890ff', //活动选项卡的标签和图标颜色。
-        inactiveTintColor: '#969696', //非活动选项卡的标签和图标颜色。
+        inactiveTintColor: '#9a9a9a', //非活动选项卡的标签和图标颜色。
         labelStyle: {
             fontSize: 12,
         }, // 选项卡标签的样式对象。
         tabStyle: {
-            backgroundColor: '#fff',
+            backgroundColor: '#f1f1f1',
         }, //选项卡的样式对象。
         style: {
-            backgroundColor: '#fff',
+            backgroundColor: '#f1f1f1',
             // flex : 1,
             // flexDirection : 'row',
             // justifyContent : 'center',
             // alignItems : 'center',
-            paddingTop: 10,
+            paddingTop: 5,
+            paddingBottom: 5,
             height:50,
             borderTopWidth: 0,
         }, // 标签栏的样式对象。
@@ -72,8 +73,7 @@ const StackNavigator = createStackNavigator({
     BottomTab: {
         screen: BottomTabNavigator,
         navigationOptions: {
-            headerTitle : '一级导航条',
-            headerBackTitle: null,
+            headerTitle : '墨音乐',
             header: null,
         }
     },
@@ -82,13 +82,13 @@ const StackNavigator = createStackNavigator({
         navigationOptions : {
             // title : '歌曲详情',
             headerTitle: '歌曲详情',
-            headerBackTitle: null,
         }
     },
 },{
     initialRouteName: 'BottomTab', //初始化路由名称
     initialRouteParams: {}, //初始化路线参数
     defaultNavigationOptions: { //屏幕的默认导航选项
+        headerBackTitle: null,
         headerStyle: {
             backgroundColor: '#fff',
         },
