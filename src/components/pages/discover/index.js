@@ -3,6 +3,7 @@ import { Image, ScrollView, TouchableHighlight ,  Button , StyleSheet, Text, Vie
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Swiper from 'react-native-swiper';
 import Input from '../../common/input';
+import { formatNumber } from '../../../utils/tools';
 import { unitWidth , unitHeight } from '../../../utils/adapter';
 import * as getData from '../../../service/getData';
 
@@ -53,6 +54,7 @@ class Discover extends React.Component{
             order :'hot',
             limit : 15
         }).then(res => {
+            // console.log(res.data)
             if(res.code == 200) {
                 this.setState({
                     recommandSongList : res.data
@@ -83,7 +85,7 @@ class Discover extends React.Component{
                             <Text ellipsizeMode={'tail'} numberOfLines={2} style={styles.recommandSongListText}>{item.title}</Text>
                             <View style={{position : 'absolute', right : 0 , top : 5 , flexDirection : 'row' ,  alignItems : 'center', marginRight : 10}}>
                                 <Ionicons name={'ios-headset'} size={13} color='#fff'/>
-                                <Text style={{ color : '#fff' , fontSize : 12 }}>{item.playCount}</Text>
+                                <Text style={{ color : '#fff' , fontSize : 12 }}>{formatNumber(item.playCount)}</Text>
                             </View>
                         </View>
                     )
