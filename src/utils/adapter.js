@@ -2,7 +2,6 @@
  * px转dp等处理函数
  */
 "use strict"
-
 import { Dimensions, StatusBar, Platform, PixelRatio } from 'react-native';
 
 //UI设计图的宽度
