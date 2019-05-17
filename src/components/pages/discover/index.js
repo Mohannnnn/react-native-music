@@ -100,7 +100,7 @@ class Discover extends React.Component{
                         autoplay={true}
                         horizontal ={true}
                         removeClippedSubviews={false}
-                        autoplayTimeout = {3}
+                        autoplayTimeout = {4}
                         showsPagination = {true}
                         paginationStyle = {styles.paginationStyle}
                         dotStyle = {styles.dotStyle}
