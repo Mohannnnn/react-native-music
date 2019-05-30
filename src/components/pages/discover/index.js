@@ -51,9 +51,9 @@ class Discover extends React.Component{
         //获取热门歌单
         getData.getHotSongList({
             platform : this.state.platform,
-            cat : '全部',
-            order :'hot',
-            limit : 15
+            categoryType : '全部',
+            orderType :'hot',
+            pageSize : 15
         }).then(res => {
             // console.log(res.data)
             if(res.code == 200) {
