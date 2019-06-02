@@ -55,7 +55,6 @@ class Discover extends React.Component{
             orderType :'hot',
             pageSize : 15
         }).then(res => {
-            // console.log(res.data)
             if(res.code == 200) {
                 this.setState({
                     recommandSongList : res.data
