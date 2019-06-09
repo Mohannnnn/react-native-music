@@ -7,7 +7,6 @@ import { formatNumber } from '../../../utils/tools';
 import { unitWidth , unitHeight } from '../../../utils/adapter';
 import * as getData from '../../../service/getData';
 
-
 class Discover extends React.Component{
     constructor(props){
         super(props);
